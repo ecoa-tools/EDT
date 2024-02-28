@@ -25,7 +25,7 @@ public class VersionHandler {
 	 */
 	@Execute
 	public void execute(@Named(IServiceConstants.ACTIVE_SHELL) Shell shell) {
-		MessageDialog.openInformation(shell, "Version", "\tECOA Design Tool\n\t\tVersion 1.1.0");
+		MessageDialog.openInformation(shell, "Version", "\tECOA Design Tool\n\t\tVersion 1.1.1");
 	}
 
 }

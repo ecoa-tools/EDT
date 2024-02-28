@@ -47,13 +47,13 @@ The following diagram shows EDT's architecture from a functional point of view :
 
 ### 2.2. Technical
 The following Eclipse projects / plugins / packages form the EDT software :
-- com.dassault.ecoa.model, com.dassault.ecoa.model.edit, com.dassault.ecoa.model.editor : this is the generated ECOA meta model.
+- com.dassault.ecoa.model, com.dassault.ecoa.model.edit : this is the generated ECOA meta model.
 - com.dassault.edt.compatibility : the Eclipse product.
 - com.dassault.edt.design : the Sirius files and classes.
 - com.dassault.edt.export : export to XML files.
 - com.dassault.edt.import : import from XML files.
 - com.dassault.edt.log : log (to the console, to a pop up, to a file).
-- com.dassault.edt.model, com.dassault.edt.model.edit, com.dassault.edt.model.editor : the EDT model.
+- com.dassault.edt.model, com.dassault.edt.model.edit : the EDT model.
 - com.dassault.edt.runtime.feature : some projects are grouped into a feature.
 - com.dassault.edt.ui : the graphical user interface.
 
@@ -180,7 +180,7 @@ Below you can see a more detailed description of the InitialAssembly Classes. Th
 *Initial Assembly and links with ComponentDefinition in EDTModel*  
 ##### 3.2.2.2. Constraints implemented and how
 ###### Unicity of names
-- Uniqueness of name were done in the setPropertyValue function of the namespace edt.model.editor class, for example for the DataTypes :
+- Uniqueness of name were done in the setPropertyValue function of the namespace edt.model.edit class, for example for the DataTypes :
     - The container (i.e the Library for DataType, Enum for EnumValue, Record and VariantRecord for Field) is obtained through eContainer() and then all the DataTypes are parsed to compare the names.  
     - For the DataTypes, the name can be a BasicType name (that consists in a overload of the BasicType), there will only be a warning. For the Field, EnumValue and Union, it is not authorized.
 

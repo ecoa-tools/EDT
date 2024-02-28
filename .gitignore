@@ -1,0 +1,12 @@
+.metadata/
+*.class
+target
+code
+.sonarlint
+.scannerwork
+**/.settings/org.sonarlint.eclipse.core.prefs
+AutomaticTest/workspace/**
+AutomaticTest/TestResultsAndOutputs/**
+**/bin/*
+!**/bin/desc
+*~

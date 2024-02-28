@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="com.dassault.ecoa.model.edit/src"/>
+	<classpathentry kind="src" path="com.dassault.ecoa.model.editor/src"/>
+	<classpathentry kind="src" path="com.dassault.ecoa.model/src"/>
+	<classpathentry kind="src" path="com.dassault.edt.compatibility/src"/>
+	<classpathentry kind="src" path="com.dassault.edt.design/src"/>
+	<classpathentry kind="src" path="com.dassault.edt.export/src"/>
+	<classpathentry kind="src" path="com.dassault.edt.import/src"/>
+	<classpathentry kind="src" path="com.dassault.edt.log/src"/>
+	<classpathentry kind="src" path="com.dassault.edt.model.edit/src"/>
+	<classpathentry kind="src" path="com.dassault.edt.model.editor/src"/>
+	<classpathentry kind="src" path="com.dassault.edt.model/src"/>
+	<classpathentry kind="src" path="com.dassault.edt.partialimport/src"/>
+	<classpathentry kind="src" path="com.dassault.edt.ui/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
